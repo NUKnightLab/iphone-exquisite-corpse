@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231832341A0ADE25001FDFF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 231832321A0ADE25001FDFF9 /* LaunchScreen.xib */; };
+		2346CE521A0AD9AD00F7C011 /* nyt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2346CE511A0AD9AD00F7C011 /* nyt.png */; };
 		23BC592A1A0AB4E400BF6883 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC59291A0AB4E400BF6883 /* AppDelegate.swift */; };
 		23BC592D1A0AB4E400BF6883 /* helloworld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23BC592B1A0AB4E400BF6883 /* helloworld.xcdatamodeld */; };
 		23BC592F1A0AB4E400BF6883 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC592E1A0AB4E400BF6883 /* ViewController.swift */; };
 		23BC59321A0AB4E400BF6883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BC59301A0AB4E400BF6883 /* Main.storyboard */; };
 		23BC59341A0AB4E400BF6883 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BC59331A0AB4E400BF6883 /* Images.xcassets */; };
-		23BC59371A0AB4E400BF6883 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BC59351A0AB4E400BF6883 /* LaunchScreen.xib */; };
 		23BC59431A0AB4E400BF6883 /* helloworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BC59421A0AB4E400BF6883 /* helloworldTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231832331A0ADE25001FDFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2346CE511A0AD9AD00F7C011 /* nyt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nyt.png; path = ../../nyt.png; sourceTree = "<group>"; };
 		23BC59241A0AB4E400BF6883 /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BC59281A0AB4E400BF6883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23BC59291A0AB4E400BF6883 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +37,6 @@
 		23BC592E1A0AB4E400BF6883 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23BC59311A0AB4E400BF6883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23BC59331A0AB4E400BF6883 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		23BC59361A0AB4E400BF6883 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		23BC593C1A0AB4E400BF6883 /* helloworldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BC59411A0AB4E400BF6883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23BC59421A0AB4E400BF6883 /* helloworldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldTests.swift; sourceTree = "<group>"; };
@@ -79,11 +81,11 @@
 		23BC59261A0AB4E400BF6883 /* helloworld */ = {
 			isa = PBXGroup;
 			children = (
+				231832321A0ADE25001FDFF9 /* LaunchScreen.xib */,
 				23BC59291A0AB4E400BF6883 /* AppDelegate.swift */,
 				23BC592E1A0AB4E400BF6883 /* ViewController.swift */,
 				23BC59301A0AB4E400BF6883 /* Main.storyboard */,
 				23BC59331A0AB4E400BF6883 /* Images.xcassets */,
-				23BC59351A0AB4E400BF6883 /* LaunchScreen.xib */,
 				23BC592B1A0AB4E400BF6883 /* helloworld.xcdatamodeld */,
 				23BC59271A0AB4E400BF6883 /* Supporting Files */,
 			);
@@ -93,6 +95,7 @@
 		23BC59271A0AB4E400BF6883 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2346CE511A0AD9AD00F7C011 /* nyt.png */,
 				23BC59281A0AB4E400BF6883 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,8 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231832341A0ADE25001FDFF9 /* LaunchScreen.xib in Resources */,
+				2346CE521A0AD9AD00F7C011 /* nyt.png in Resources */,
 				23BC59321A0AB4E400BF6883 /* Main.storyboard in Resources */,
-				23BC59371A0AB4E400BF6883 /* LaunchScreen.xib in Resources */,
 				23BC59341A0AB4E400BF6883 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,20 +244,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		231832321A0ADE25001FDFF9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231832331A0ADE25001FDFF9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		23BC59301A0AB4E400BF6883 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				23BC59311A0AB4E400BF6883 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		23BC59351A0AB4E400BF6883 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23BC59361A0AB4E400BF6883 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,6 +415,7 @@
 				23BC59481A0AB4E400BF6883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23BC59491A0AB4E400BF6883 /* Build configuration list for PBXNativeTarget "helloworldTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				23BC594B1A0AB4E400BF6883 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
