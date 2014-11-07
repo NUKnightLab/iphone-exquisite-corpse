@@ -31,6 +31,8 @@ class ViewController: UIViewController, UIWebViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        activityView.hidesWhenStopped = true
+
         webView.delegate = self
         let requestURL = NSURL(string: "http://knightlab.northwestern.edu")
         let request = NSURLRequest(URL: requestURL!)
