@@ -44,6 +44,12 @@
                                     <action selector="googleClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q8g-Ff-c2g"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="nx2-8B-bpe">
+                                <rect key="frame" x="142" y="313" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="8jc-eb-AcD">
+                                <rect key="frame" x="150" y="313" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -51,13 +57,14 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="activityView" destination="8jc-eb-AcD" id="CYA-X4-KDY"/>
                         <outlet property="toolbar" destination="8bC-Xf-vdC" id="ye8-oR-qZU"/>
                         <outlet property="webView" destination="dOG-iq-DZD" id="lCh-4o-eoY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="143" y="377"/>
+            <point key="canvasLocation" x="335" y="406"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

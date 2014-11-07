@@ -8,14 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet weak var webView: UIWebView!
     
+    
     @IBOutlet var toolbar: UIView!
+    
+    @IBOutlet weak var activityView: UIActivityIndicatorView!
+    
+    func webViewDidStartLoad(webView: UIWebView) {
+        activityView.startAnimating()
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView) {
+        activityView.stopAnimating()
+    }
+    
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
+        activityView.stopAnimating()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        webView.delegate = self
         let requestURL = NSURL(string: "http://knightlab.northwestern.edu")
         let request = NSURLRequest(URL: requestURL!)
         webView.loadRequest(request)
